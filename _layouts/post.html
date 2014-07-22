@@ -26,6 +26,21 @@ comments: yes
 {% endif %}
 </section>
 <section class="post">
+
+{% assign asset = page.id | prepend: '/assets' %}
+{% assign image = asset | append: '.jpg' %}
+{% assign imageL = asset | append: 'L.jpg' %}
+
+{% for file in site.static_files reversed %}
+  {% if file.path == imageL %}
+    <br/><a href="{{ file.path }}" target="_blank" title="点击放大图片"> <img src="{{ file.path }}" style="max-width:100%" /></a>
+    {% break %}
+  {% elsif file.path == image %}
+    <br/><img src="{{ file.path }}" style="max-width:100%" />
+    {% break %}
+  {% endif %}
+{% endfor %}
+
 {{ content }}
 </section>
 <section align="right">
