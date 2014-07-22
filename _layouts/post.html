@@ -30,9 +30,9 @@ comments: yes
 {% assign asset = page.id | prepend: '/assets' %}
 {% assign image = asset | append: '.jpg' %}
 {% assign imageL = asset | append: 'L.jpg' %}
-{{ image }}
 
-{% for file in site.static_files reversed %}
+{% for file in site.static_files %}
+{{ image }}|
 {{ file.path }}
   {% if file.path == imageL %}
     <br/><a href="{{ file.path }}" target="_blank" title="点击放大图片"> <img src="{{ file.path }}" style="max-width:100%" /></a>
