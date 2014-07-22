@@ -7,7 +7,7 @@ layout: default
 	<div class="slideshow-content">
 		<div class="slideshow-container">
 			<div class="slider">
-{% for cat in site.categories %} {% if cat[0] == '幻灯片' %} {% for post in cat[1] %}
+{% for cat in site.categories %} {% if cat[0] == '幻灯片' %} {% for post in cat[1] reversed %}
   				<div class="slide">
 					<img src="/assets{{ post.id }}.jpg"/>
 					<div class="inner-overlay"></div>
@@ -36,7 +36,7 @@ layout: default
 	<div class="mod-inner">
 		<div class="col-left" id="latest">
 			<h3>产品视频</h3>
-{% for cat in site.categories %} {% if cat[0] == '视频' %} {% for post in cat[1] %}
+{% for cat in site.categories %} {% if cat[0] == '视频' %} {% for post in cat[1] reversed %}
 			<div class="inner-content clearfix">
 				<div class="inner-left">
 					<a href="{{ post.url }}">
@@ -53,7 +53,7 @@ layout: default
 		</div>
 		<div class="col-center" id="featured-property">
 			<div class="slide-container">
-{% for cat in site.categories %} {% if cat[0] == '设施' %} {% for post in cat[1] %}
+{% for cat in site.categories %} {% if cat[0] == '设施' %} {% for post in cat[1] reversed %}
 				<div class="inner-content{% if forloop.index == 1 %} current{% endif %}">
 					<div class="img-container">
 						<a href="{{ post.url }}">

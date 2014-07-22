@@ -57,12 +57,12 @@
       <div class="mod-inner">
         <div class="col-4 clearix border-none">
           <div class="img-container">
-{% for cat in site.categories %} {%if cat[0] == '产品' %} {% for post in cat[1] %}
+{% for cat in site.categories %} {%if cat[0] == '产品' %} {% for post in cat[1] reversed %}
             <img class="{{ forloop.index }}" src="/assets{{ post.id }}.jpg"/>
 {% endfor %} {% endif %} {% endfor %}
           </div>
         </div>
-{% for cat in site.categories %} {%if cat[0] == '产品' %} {% for post in cat[1] %}
+{% for cat in site.categories %} {%if cat[0] == '产品' %} {% for post in cat[1] reversed %}
   {% assign length = forloop.length | plus: 2 %}
   {% assign rows = length | divided_by: 3 %}
   {% assign rows2 = rows | times: 2 %}
