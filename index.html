@@ -7,9 +7,7 @@ layout: default
 	<div class="slideshow-content">
 		<div class="slideshow-container">
 			<div class="slider">
-{% for cat in site.categories %}
-{% if cat[0] == '幻灯片' %}
-{% for post in cat[1] %}
+{% for cat in site.categories %} {%if cat[0] == '幻灯片' %} {% for post in cat[1] %}
   				<div class="slide">
 					<img src="/assets{{ post.id }}.jpg"/>
 					<div class="inner-overlay"></div>
@@ -25,9 +23,7 @@ layout: default
 						</div>
 					</div>
 				</div>
-{% endfor %}
-{% endif %}
-{% endfor %}
+{% endfor %} {% endif %} {% endfor %}
 			</div>
 			<div class="slider-controls">
 				<div class="slider-pagin"></div>
@@ -40,9 +36,7 @@ layout: default
 	<div class="mod-inner">
 		<div class="col-left" id="latest">
 			<h3>产品视频</h3>
-{% for cat in site.categories %}
-{% if cat[0] == '视频' %}
-{% for post in cat[1] %}
+{% for cat in site.categories %} {%if cat[0] == '视频' %} {% for post in cat[1] %}
 			<div class="inner-content clearfix">
 				<div class="inner-left">
 					<a href="{{ post.url }}">
@@ -55,16 +49,12 @@ layout: default
 					<a href="{{ post.url }}">{{ post.title }}<span class="more"></span></a>
 				</div>
 			</div>
-{% endfor %}
-{% endif %}
-{% endfor %}
+{% endfor %} {% endif %} {% endfor %}
 		</div>
 		<div class="col-center" id="featured-property">
 			<div class="slide-container">
-{% for cat in site.categories %}
-{% if cat[0] == '设施' %}
-{% for post in cat[1] %}			
-				<div class="inner-content current">
+{% for cat in site.categories %} {%if cat[0] == '设施' %} {% for post in cat[1] %}
+				<div class="inner-content{% if forloop.index == 1 %} current{% endif %}">
 					<div class="img-container">
 						<a href="{{ post.url }}">
 							<img src="/assets{{ post.id }}.jpg"/>
@@ -76,9 +66,7 @@ layout: default
 						<a class="learn-more" href="{{ post.url }}">更多</a>
 					</div>
 				</div>
-{% endfor %}
-{% endif %}
-{% endfor %}
+{% endfor %} {% endif %} {% endfor %}
 			</div>
 			<div class="controls-container clearfix">
 				<h3>厂房设施</h3>
@@ -95,7 +83,7 @@ layout: default
 					<div class="inner-left">
 						<div class="img-container">
 							<a href="http://shop1405404880362.1688.com" target="_blank">
-								<img src="assets/link1.jpg"/>
+								<img src="/assets/link1.jpg"/>
 							</a>
 						</div>
 					</div>
@@ -110,7 +98,7 @@ layout: default
 					<div class="inner-left">
 						<div class="img-container">
 							<a href="http://wait31627.cn.gongchang.com" target="_blank">
-								<img src="assets/link2.jpg"/>
+								<img src="/assets/link2.jpg"/>
 							</a>
 						</div>
 					</div>
@@ -125,7 +113,7 @@ layout: default
 					<div class="inner-left">
 						<div class="img-container">
 							<a href="http://nbdnp.diytrade.com" target="_blank">
-								<img src="assets/link3.jpg"/>
+								<img src="/assets/link3.jpg"/>
 							</a>
 						</div>
 					</div>
