@@ -1,0 +1,12 @@
+markdown: rdiscount
+permalink: /:title/
+url: http://www.dnp.wf
+name: 典普无纺布
+author: 宁波典普无纺布有限公司
+email: tangjj@dnp.wf
+duoshuo: dnp
+beian: 浙ICP备14026618号
+cnzz: 1252910457
+github: tangjj
+safe: true
+paginate: 20

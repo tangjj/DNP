@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="module" id="home">
+	<div class="mod-inner">
+{{ content }}
+	</div>
+
+{% if page.comments %}
+	<div class="mod-inner">
+{% include comments.md %}
+	</div>
+{% endif %}
+</div>
