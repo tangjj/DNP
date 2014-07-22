@@ -7,54 +7,27 @@ layout: default
 	<div class="slideshow-content">
 		<div class="slideshow-container">
 			<div class="slider">
-				<div class="slide">
-					<img src="assets/slides/1.jpg"/>
+{% for cat in site.categories %}
+{% if cat[0] == '幻灯片' %}
+{% for post in cat[1] %}
+  				<div class="slide">
+					<img src="/assets{{ post.id }}.jpg"/>
 					<div class="inner-overlay"></div>
 					<div class="detail">
 						<div class="detail-inner">
 							<div class="caption">
-								<h4/>
-								<h3>
-									<br/>
-									<br/>
-								</h3>
+								<h4>{{ post.title }}</h4>
+								<h3>{{ post.intro }}<br/><br/></h3>
 								<div class="btn-container">
-									<a class="btn" href="about.html" title="了解更多">了解更多</a>
+									<a class="btn" href="{{ post.url }}" title="{{ post.title }}">了解更多</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="slide">
-					<img src="assets/slides/2.jpg"/>
-					<div class="inner-overlay"></div>
-					<div class="detail">
-						<div class="detail-inner">
-							<div class="caption">
-								<h4>一流的设备、一流的技术、一流的原料</h4>
-								<h3>铸成一流的产品<br/><br/></h3>
-								<div class="btn-container">
-									<a class="btn" href="about.html" title="了解更多">了解更多</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="slide">
-					<img src="assets/slides/3.jpg"/>
-					<div class="inner-overlay"></div>
-					<div class="detail">
-						<div class="detail-inner">
-							<div class="caption">
-								<h4>一流的设备、一流的技术、一流的原料</h4>
-								<h3>铸成一流的产品<br/><br/></h3>
-								<div class="btn-container">
-									<a class="btn" href="about.html" title="了解更多">了解更多</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+{% endfor %}
+{% endif %}
+{% endfor %}
 			</div>
 			<div class="slider-controls">
 				<div class="slider-pagin"></div>
@@ -67,84 +40,48 @@ layout: default
 	<div class="mod-inner">
 		<div class="col-left" id="latest">
 			<h3>产品视频</h3>
+{% for cat in site.categories %}
+{% if cat[0] == '视频' %}
+{% for post in cat[1] %}
 			<div class="inner-content clearfix">
 				<div class="inner-left">
-					<a href="#">
-						<img src="assets/thumbs/1.jpg"/>
+					<a href="{{ post.url }}">
+						<img src="/assets{{ post.id }}.jpg"/>
 						<img class="videofloat" src="images/play.png"/>
 					</a>
 				</div>
 				<div class="inner-right">
-					<span>2014-06-03</span>
-					<a href="#">视频标题简介信息简介信息1<span class="more"></span></a>
+					<span>{{ post.date | date:"%Y-%m-%d" }}</span>
+					<a href="{{ post.url }}">{{ post.title }}<span class="more"></span></a>
 				</div>
 			</div>
-			<div class="inner-content clearfix">
-				<div class="inner-left">
-					<a href="#">
-						<img src="assets/thumbs/2.jpg"/>
-						<img class="videofloat" src="images/play.png"/>
-					</a>
-				</div>
-				<div class="inner-right">
-					<span>2014-06-01</span>
-					<a href="#">视频标题简介信息简介信息2<span class="more"></span></a>
-				</div>
-			</div>
-			<div class="inner-content clearfix">
-				<div class="inner-left">
-					<a href="#">
-						<img src="assets/thumbs/3.jpg"/>
-						<img class="videofloat" src="images/play.png"/>
-					</a>
-				</div>
-				<div class="inner-right">
-					<span>2014-05-19</span>
-					<a href="#">视频标题简介信息简介信息3<span class="more"></span></a>
-				</div>
-			</div>
+{% endfor %}
+{% endif %}
+{% endfor %}
 		</div>
 		<div class="col-center" id="featured-property">
 			<div class="slide-container">
+{% for cat in site.categories %}
+{% if cat[0] == '设施' %}
+{% for post in cat[1] %}			
 				<div class="inner-content current">
 					<div class="img-container">
-						<a href="#">
-							<img src="assets/shows/1.jpg"/>
+						<a href="{{ post.url }}">
+							<img src="/assets{{ post.id }}.jpg"/>
 						</a>
 					</div>
 					<div class="property-content">
-						<h2>设备全貌</h2>
-						<p>生产设备全貌，欢迎参观</p>
-						<a class="learn-more" href="about.html">更多</a>
+						<h2>{{ post.title }}</h2>
+						<p>{{ post.intro }}</p>
+						<a class="learn-more" href="{{ post.url }}">更多</a>
 					</div>
 				</div>
-				<div class="inner-content ">
-					<div class="img-container">
-						<a href="#">
-							<img src="assets/shows/2.jpg"/>
-						</a>
-					</div>
-					<div class="property-content">
-						<h2>无纺布+PE+水刺无纺布</h2>
-						<p>120gsm 3 layer NON-WOVEN FABRIC/50+30+40/non woven+PE+non woven cotton/1.5米门幅</p>
-						<a class="learn-more" href="about.html">更多</a>
-					</div>
-				</div>
-				<div class="inner-content ">
-					<div class="img-container">
-						<a href="#">
-							<img src="assets/shows/3.jpg"/>
-						</a>
-					</div>
-					<div class="property-content">
-						<h2>TYVEK+无纺布+无纺布</h2>
-						<p>120gsm 3 layer NON-WOVEN FABRIC/60+30+30/TYVEK+non woven+non woven/1.5米门幅</p>
-						<a class="learn-more" href="about.html">更多</a>
-					</div>
-				</div>
+{% endfor %}
+{% endif %}
+{% endfor %}
 			</div>
 			<div class="controls-container clearfix">
-				<h3>厂房设备</h3>
+				<h3>厂房设施</h3>
 				<div class="featured-controls">
 					<a class="slider-prev">Previous</a>
 					<a class="slider-next">Next</a>
@@ -158,7 +95,7 @@ layout: default
 					<div class="inner-left">
 						<div class="img-container">
 							<a href="http://shop1405404880362.1688.com" target="_blank">
-								<img src="assets/links/1.jpg"/>
+								<img src="assets/link1.jpg"/>
 							</a>
 						</div>
 					</div>
@@ -173,7 +110,7 @@ layout: default
 					<div class="inner-left">
 						<div class="img-container">
 							<a href="http://wait31627.cn.gongchang.com" target="_blank">
-								<img src="assets/links/2.jpg"/>
+								<img src="assets/link2.jpg"/>
 							</a>
 						</div>
 					</div>
@@ -187,8 +124,8 @@ layout: default
 				<div class="inner-content clearfix">
 					<div class="inner-left">
 						<div class="img-container">
-							<a href="自助贸易" target="_blank">
-								<img src="assets/links/3.jpg"/>
+							<a href="http://nbdnp.diytrade.com" target="_blank">
+								<img src="assets/link3.jpg"/>
 							</a>
 						</div>
 					</div>
