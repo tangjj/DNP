@@ -16,9 +16,9 @@ comments: no
 
 </pre>
 
-阿里巴巴旺铺：<http://shop1405404880362.1688.com><br/>
+阿里巴巴旺铺：<http://shop1447779075422.1688.com/?spm=a261y.7663282.0.0.RhnHdT>
 世界工厂：<http://wait31627.cn.gongchang.com><br/>
 自助贸易：<http://nbdnp.diytrade.com><br/>
 
-Ningbo dnp No-Woven Co. Ltd.<br/>
+Ningbo dnp No-Woven Co.，Ltd.<br/>
 No.156, JinTong Road, Wuxiang Industrial Park, Ningbo, Zhejiang, P.R.China<br/>
