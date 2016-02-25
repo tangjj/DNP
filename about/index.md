@@ -4,15 +4,15 @@ layout: page
 comments: no
 ---
 
-<pre>宁波典普无纺布有限公司成立于2014年，位于宁波鄞州五乡工业园区，是一家专业的纺粘无纺布生产、销售公司，拥有自营进出口权。
+<pre>Founded in 2014, Ningbo DNP non-woven Co., LTD., which is located in WuXiang industrial park of Ningbo Yinzhou, is a professional manuafacturer of spun-bonded non-woven fabric. It has the self-supported import and export rights.
 
-公司专业生产10~200克重，最大门幅1.8米的各种抗老化（即抗紫外线或抗UV）无纺布布料，经超声波复合的二次加工，可提供多层复合无纺布。
+The company specializes in production of anti-aging (UV resistant) non-woven fabrics，weight from 10 to 200 gsm, maximum width of 1.8 meters . By secondary processing of ultrasonic compounds, we also can supply multilayer non-woven fabric.
 
-本公司产品全部按ASTM D5304-09和AATCC 186-2009标准检测，并且环保符合欧盟最新ROSH标准。
+All products are tested according to ASTM D5304-09 and AATCC 186-2009 standard, and comply with the latest ROSH in environmental protection standard.
 
-公司以全新的生产设备、过硬的原料、一流的技术，严格的检测为广大客户提供优质的无纺布面料。
+With fully new production equipment, excellent raw materials, first-class technology and strict test control. We supply high-qualified non-woven fabrics for all customers.
 
-公司秉承以客户需求为核心，专注于无纺布市场，相信通过我们的不懈努力和追求，实现与客户的互利共赢!
+We’re adhering to the customer’s demand, focusing on market of non-woven fabrics all the time. According to our continuous efforts, we hope to win mutual benefits with our customer!
 
 </pre>
 
