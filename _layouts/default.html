@@ -14,7 +14,7 @@
       <div class="mod-inner">
         <ul id="utility-nav">
           <li>
-            TEL: <a href="tel:+86-135-8884-0084">+86-135-8884-0084</a><br/>
+            MOBILE: <a href="tel:+86-135-8884-0084">+86-135-8884-0084</a><br/>
             EMAIL: <a href="mailto:tangjj@dnp.wf">tangjj@dnp.wf</a>
           </li>
         </ul>
@@ -47,12 +47,12 @@
       <div class="mod-inner">
         <div class="col-4 clearix border-none">
           <div class="img-container">
-{% for cat in site.categories %} {%if cat[0] == '产品' %} {% for post in cat[1] reversed %}
+{% for cat in site.categories %} {%if cat[0] == 'PRODUCTS' %} {% for post in cat[1] reversed %}
             <img class="{{ forloop.index }}" src="/assets{{ post.id }}.jpg"/>
 {% endfor %} {% endif %} {% endfor %}
           </div>
         </div>
-{% for cat in site.categories %} {%if cat[0] == '产品' %} {% for post in cat[1] reversed %}
+{% for cat in site.categories %} {%if cat[0] == 'PRODUCTS' %} {% for post in cat[1] reversed %}
   {% assign length = forloop.length | plus: 2 %}
   {% assign rows = length | divided_by: 3 %}
   {% assign rows2 = rows | times: 2 %}
@@ -78,16 +78,15 @@
           <div class="mod-main">
             <h6>Contact us</h6>
             <address>
-              宁波典普无纺布有限公司<br/>
-              宁波市鄞州区五乡镇<br/>
-              五乡工业园区<br/>
-              金通路156号
+              No.156, JinTong Road,<br/>
+              WuXiang Industrial Park,<br/>
+              NingBo, ZheJiang,<br/>
+              P.R.China
             </address>
             <address>
-              电话: 0571-88811082<br/>
-              传真: 4008892163-132996<br/>
-              手机: 13588840084<br/>
-              电邮: tangjj@dnp.wf
+              TEL: +86-0571-88811082<br/>
+              MOBILE: +86-135-8884-0084<br/>
+              EMAIL: tangjj@dnp.wf
             </address>
           </div>
 
