@@ -1744,13 +1744,14 @@ a.paused
   list-style:none;
   margin:0;
   padding:0;
+  padding-top: 10;
 }
 
 #utility-nav li
 {
   color:#999;
   float:left;
-  font-size:11px;
+  font-size:13px;
   font-weight:400;
   margin:0 4px;
 }
@@ -1758,7 +1759,7 @@ a.paused
 #utility-nav li a
 {
   color:#FFF;
-  font-size:11px;
+  font-size:13px;
   font-family:helveticaneuelt_std_lt_cnRg, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, 微软雅黑, 新細明體, Arial, "Lucida Grande", sans-serif;
   text-decoration:none;
 }
