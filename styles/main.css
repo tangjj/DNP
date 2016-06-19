@@ -1228,7 +1228,7 @@ a.more-link
 
 #main-hero
 {
-  min-height:361px;
+  min-height:300px;
   overflow:hidden;
   left:-9999em;
   opacity:0;
@@ -1238,7 +1238,7 @@ a.more-link
 {
   position:relative;
   float:left;
-  min-height:361px;
+  min-height:300px;
   text-align:center;
 }
 
@@ -1253,8 +1253,8 @@ a.more-link
 {
   float:left;
   clear:both;
-  background:url(../images/trans_pixel.png) repeat-x 0 0;
-  font-size:80px;
+  //background:url(../images/trans_pixel.png) repeat-x 0 0;
+  font-size:36px;
   color:#FFF;
   text-align:left;
   font-family:helveticaneuelt_std_thin_cnRg, HelveticaNeue-Thin, "Helvetica Neue Thin", "Helvetica Neue", Helvetica, 幼圆, 微软雅黑, 新細明體, Arial, "Lucida Grande", sans-serif;
@@ -1730,7 +1730,7 @@ a.paused
 {
   background:linear-gradient(#2a2a2a,#1d1d1d);
   -pie-background:linear-gradient(#2a2a2a,#1d1d1d);
-  height:25px;
+  height:50px;
   position:relative;
   z-index:9999;
   -pie-lazy-init:false;
@@ -2149,7 +2149,7 @@ a.paused
 #home .col-left
 {
   float:left;
-  width:273px;
+  width:300px;
   padding-right:15px;
 }
 
@@ -2163,7 +2163,9 @@ a.paused
 {
   float:left;
   padding-left:15px;
-  width:225px;
+  width:600px;
+  font-size:16px;
+  font-weight:300;
 }
 
 #latest h3,#weibo-widget h3,#press-media h3
@@ -2183,14 +2185,16 @@ a.paused
 {
   float:right;
   width:138px;
+  padding-right: 30;
 }
 
 #latest .inner-content .inner-right a,#weibo-widget .inner-content .inner-right a,#press-media .inner-content .inner-right a
 {
   color:#707070;
   text-decoration:none;
-  font-size:14px;
-  line-height:21px;
+  font-size:24px;
+  line-height:70px;
+  font-weight: 300;
 }
 
 #latest .inner-content .inner-right a .more,#weibo-widget .inner-content .inner-right a .more,#press-media .inner-content .inner-right a .more
@@ -2219,7 +2223,7 @@ a.paused
 #latest .inner-content .inner-left a
 {
   float:left;
-  width:122px;
+  width:100px;
   height:80px;
   overflow:hidden;
   display:block;
@@ -2227,7 +2231,7 @@ a.paused
 
 #latest .inner-content .inner-left img
 {
-  width:122px;
+  width:100px;
   margin:0 auto;
 }
 
@@ -2236,7 +2240,7 @@ a.paused
   position:absolute;
   top:0;
   left:0;
-  width:122px;
+  width:100px;
   height:80px;
   cursor:pointer;
   background:url(../images/video_icon_58.png) no-repeat center center;
@@ -3323,7 +3327,7 @@ a.paused
 
 .lt-ie9 #main-hero .slider .slide img
 {
-  min-height:396px;
+  min-height:300px;
 }
 
 .lt-ie8 #main-hero .slider .slide .detail

@@ -103,7 +103,7 @@ function docContent(obj){
 		// Slider functionality
 		$("#main-hero .slider").carouFredSel({
 			responsive: true,
-			height: 396,
+			height: 300,
 			width: '100%',
 			items: {
 				width: 1400,

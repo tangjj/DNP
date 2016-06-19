@@ -7,18 +7,18 @@ layout: default
 	<div class="slideshow-content">
 		<div class="slideshow-container">
 			<div class="slider">
-{% for cat in site.categories %} {% if cat[0] == '幻灯片' %} {% for post in cat[1] reversed %}
+{% for cat in site.categories %} {% if cat[0] == 'SLIDES' %} {% for post in cat[1] reversed %}
   				<div class="slide">
 					<img src="/assets{{ post.id }}.jpg"/>
 					<div class="inner-overlay"></div>
 					<div class="detail">
 						<div class="detail-inner">
 							<div class="caption">
-								<h4>{{ post.title }}</h4>
+								<!--h4>{{ post.title }}</h4-->
 								<h3>{{ post.intro }}<br/><br/></h3>
-								<div class="btn-container">
+								<!--div class="btn-container">
 									<a class="btn" href="{{ post.url }}" title="{{ post.title }}">了解更多</a>
-								</div>
+								</div-->
 							</div>
 						</div>
 					</div>
@@ -35,22 +35,23 @@ layout: default
 <div class="module" id="home">
 	<div class="mod-inner">
 		<div class="col-left" id="latest">
-			<h3>产品视频</h3>
-{% for cat in site.categories %} {% if cat[0] == '视频' %} {% for post in cat[1] reversed %}
+			<h3>Our Factory</h3>
+{% for cat in site.categories %} {% if cat[0] == 'FACTORY' %} {% for post in cat[1] reversed %}
 			<div class="inner-content clearfix">
 				<div class="inner-left">
 					<a href="{{ post.url }}">
 						<img src="/assets{{ post.id }}.jpg"/>
-						<img class="videofloat" src="images/play.png"/>
+						<!--img class="videofloat" src="images/play.png"/-->
 					</a>
 				</div>
 				<div class="inner-right">
-					<span>{{ post.date | date:"%Y-%m-%d" }}</span>
+					<!--<span>{{ post.date | date:"%Y-%m-%d" }}</span>-->
 					<a href="{{ post.url }}">{{ post.title }}<span class="more"></span></a>
 				</div>
 			</div>
 {% endfor %} {% endif %} {% endfor %}
 		</div>
+<!--
 		<div class="col-center" id="featured-property">
 			<div class="slide-container">
 {% for cat in site.categories %} {% if cat[0] == '设施' %} {% for post in cat[1] reversed %}
@@ -76,9 +77,10 @@ layout: default
 				</div>
 			</div>
 		</div>
+		-->
 		<div class="col-right">
-			<div id="weibo-widget">
-				<h3>贸易平台链接</h3>
+<!--			<div id="weibo-widget">
+				<h3>Find us in</h3>
 				<div class="inner-content clearfix">
 					<div class="inner-left">
 						<div class="img-container">
@@ -125,6 +127,22 @@ layout: default
 					</div>
 				</div>
 			</div>
+			-->
+Founded in 2014, Ningbo DNP non-woven Co., LTD., which is located in WuXiang industrial park of Ningbo Yinzhou, is a professional manuafacturer of spun-bonded non-woven fabric. It has the self-supported import and export rights.
+<br/>
+<br/>
+The company specializes in production of anti-aging (UV resistant) non-woven fabrics，weight from 10 to 200 gsm, maximum width of 1.8 meters . By secondary processing of ultrasonic compounds, we also can supply multilayer non-woven fabric.
+<br/>
+<br/>
+All products are tested according to ASTM D5304-09 and AATCC 186-2009 standard, and comply with the latest ROSH in environmental protection standard.
+<br/>
+<br/>
+With fully new production equipment, excellent raw materials, first-class technology and strict test control. We supply high-qualified non-woven fabrics for all customers.
+<br/>
+<br/>
+We’re adhering to the customer’s demand, focusing on market of non-woven fabrics all the time. According to our continuous efforts, we hope to win mutual benefits with our customer!
+<br/>
+
 		</div>
 	</div>
 </div>
