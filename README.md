@@ -9,6 +9,8 @@ DNP.WF
 
 `
 gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
+
 sudo gem install jekyll rdiscount jekyll-paginate -V
+
 ./jekyll.sh
 `
