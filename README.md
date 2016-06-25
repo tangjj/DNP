@@ -1,7 +1,7 @@
 DNP.WF
 ===
 
-[WWW.DNP.WF)(HTTP://WWW.DNP.WF)
+[WWW.DNP.WF](HTTP://WWW.DNP.WF)
 
 1. [XCode Command Line Tools](https://developer.apple.com/download/more/)
 
