@@ -7,10 +7,9 @@ DNP.WF
 
 2. Install Jekyll [ruby.taobao.org](https://ruby.taobao.org)
 
-`
-gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
 
-sudo gem install jekyll rdiscount jekyll-paginate -V
+  gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
 
-./jekyll.sh
-`
+  sudo gem install jekyll rdiscount jekyll-paginate -V
+
+  ./jekyll.sh
