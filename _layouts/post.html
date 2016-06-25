@@ -18,7 +18,7 @@ comments: yes
 {% if page.tags.size != 0 %}
  | 
 <span class="tags">
-  标签
+  Categories
   {% for tag in page.tags %}
   <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
   {% endfor %}
@@ -31,7 +31,7 @@ comments: yes
 {% assign asset = page.id | prepend: '/assets' %}
 {% if page.id contains 'item' } %}
   {% assign imageL = asset | append: 'L.jpg' %}
-  <a href="{{ imageL }}" target="_blank" title="点击放大图片"> <img src="{{ imageL }}" style="max-width:100%" /></a>
+  <a href="{{ imageL }}" target="_blank" title="Click to zoom out"> <img src="{{ imageL }}" style="max-width:100%" /></a>
 {% elsif file.path == image %}
   {% assign image = asset | append: '.jpg' %}
   <img src="{{ image }}" style="max-width:100%" />
@@ -42,8 +42,8 @@ comments: yes
 <section align="right">
 <br/>
 <span>
-	{% if page.previous %}<a href="{{ page.previous.url }}" class="pageNav">上一篇</a>{% endif %}
+	{% if page.previous %}<a href="{{ page.previous.url }}" class="pageNav">PREV</a>{% endif %}
 	&nbsp;&nbsp;&nbsp;
-	{% if page.next %}<a href="{{ page.next.url }}" class="pageNav">下一篇</a>{% endif %}
+	{% if page.next %}<a href="{{ page.next.url }}" class="pageNav">NEXT</a>{% endif %}
 </span>
 </section>

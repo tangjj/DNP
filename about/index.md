@@ -1,5 +1,5 @@
 ---
-title: 公司介绍
+title: About
 layout: page
 comments: no
 ---

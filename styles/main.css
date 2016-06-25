@@ -20,7 +20,7 @@ html,button,input,select,textarea
 body
 {
   font-family:"Helvetica Neue", Helvetica, 微软雅黑, 新細明體, Arial, "Lucida Grande", sans-serif;
-  font-weight:lighter;
+  font-weight:300;
   font-size:14px;
   line-height:21px;
   background:#f4f4f4;
@@ -1062,7 +1062,6 @@ a.more-link
   float:left;
   color:#606060;
   font-size:14px;
-  text-transform:uppercase;
   margin:10px 0;
 }
 
@@ -1123,7 +1122,6 @@ a.more-link
 {
   color:#484848;
   font-size:22px;
-  text-transform:uppercase;
   margin:10px 0;
 }
 
@@ -1207,7 +1205,6 @@ a.more-link
 {
   color:#8a8a8a;
   font-size:14px;
-  text-transform:uppercase;
   line-height:1;
 }
 
@@ -1510,7 +1507,6 @@ a.paused
 .accordion-wrap ul li .info h5
 {
   font-size:14px;
-  text-transform:uppercase;
   margin:0 0 10px;
 }
 
@@ -2319,7 +2315,6 @@ a.paused
 #press-media .headline-container h3,#media-reports .headline-container h3,#press-releases .headline-container h3,#photos-videos .headline-container h3,#page-intro .headline-container h3
 {
   font-size:16px;
-  text-transform:uppercase;
   float:left;
   margin-bottom:0;
 }
@@ -2374,7 +2369,6 @@ a.paused
   color:#606060;
   font-weight:700;
   font-size:12px;
-  \\text-transform:uppercase;
   line-height:14px;
   margin:0;
 }
@@ -2557,7 +2551,6 @@ a.paused
 {
   font-size:14px;
   text-decoration:none;
-  text-transform:uppercase;
   color:#e8380d;
   display:inline-block;
   padding:10px 0;
@@ -2852,7 +2845,6 @@ a.paused
   font-family:helveticaneuelt_std_lt_cnRg, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, 微软雅黑, 新細明體, Arial, "Lucida Grande", sans-serif;
   line-height:2.1;
   position:relative;
-  text-transform:uppercase;
   text-align:center;
   z-index:2;
   width:100%;
@@ -2948,7 +2940,6 @@ a.paused
   font-family:helveticaneuelt_std_med_cnRg, HelveticaNeue-Medium, "Helvetica Neue Medium", "Helvetica Neue", Helvetica, 黑体, 微软雅黑, 新細明體, Arial, "Lucida Grande", sans-serif;
   clear:both;
   float:left;
-  text-transform:uppercase;
   padding:10px 10px 10px 0;
 }
 
@@ -2993,7 +2984,6 @@ a.paused
   font-family:helveticaneuelt_std_med_cnRg, HelveticaNeue-Medium, "Helvetica Neue Medium", "Helvetica Neue", Helvetica, 黑体, 微软雅黑, 新細明體, Arial, "Lucida Grande", sans-serif;
   clear:both;
   border:none;
-  text-transform:uppercase;
 }
 
 #search-pg .results .note
@@ -3042,7 +3032,6 @@ a.paused
 {
   color:#b8b8b8;
   font-size:14px;
-  text-transform:uppercase;
   margin:0 0 15px;
 }
 
@@ -3711,7 +3700,6 @@ figure,form,.section .section-head p,.accordion-wrap ul li .info p,#latest .inne
   font-family:"Helvetica Neue", Helvetica, 微软雅黑, 新細明體, Arial, "Lucida Grande", sans-serif;
   color:#a3a3a3;
   font-size:11px;
-  text-transform:uppercase;
   display:block;
   font-weight:500;
   margin:5px 0;
@@ -3743,7 +3731,6 @@ figure,form,.section .section-head p,.accordion-wrap ul li .info p,#latest .inne
   float:left;
   font-size:12px;
   line-height:14px;
-  text-transform:uppercase;
   border:1px solid #2b2b2b;
   background:linear-gradient(#232323,#000000);
   -pie-background:linear-gradient(#232323,#000000);

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 访客留言
+title: Leave a Message
 comments: yes
 ---
 
-来了，就留下你的足迹吧。
+Leave a Message to us

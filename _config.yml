@@ -1,7 +1,7 @@
 markdown: rdiscount
 permalink: /:title/
-url: http://www.dnp.wf
-name: DNP Non-Woven 
+url: http://www.nonwovenfabric.biz/
+name: DNP Non-Woven Fabric
 author: Ningbo DNP Non-Woven Co,.Ltd.
 email: tangjj@dnp.wf
 duoshuo: dnp
@@ -10,3 +10,4 @@ cnzz: 1252910457
 github: tangjj
 safe: false
 paginate: 20
+gems: [jekyll-paginate]
